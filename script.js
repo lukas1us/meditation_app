@@ -7,8 +7,9 @@ const holdTime = totalTime / 5
 
 breatheAnimation()
 
+//"classic" breathing exercise by Brad Traversy
 function breatheAnimation() {
-    text.innerHTML = 'Breate in!'
+    text.innerHTML = 'Breathe in!'
     container.className = 'container grow'
 
     setTimeout(() => {

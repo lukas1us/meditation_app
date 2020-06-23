@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.no-display {
+    display: none;
+}
+
 body {
     background: url('/img/background.jpg') no-repeat center center;
     color: #fff;
@@ -14,6 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
+    overflow: hidden;
 }
 
 header {
@@ -61,12 +66,16 @@ a:hover {
     transform: scale(1);
 }
 
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .gradient-circle {
     background: conic-gradient(#f76967 0%,
-            #fc967f 40%,
-            #fff 40%,
-            #fff 60%,
-            #40a2ad 60%,
+            #fc967f 65%,
+            #40a2ad 80%,
             #4ab3b6 100%);
     height: 320px;
     width: 320px;
@@ -94,7 +103,7 @@ a:hover {
     left: 140px;
     width: 20px;
     height: 190px;
-    animation: rotate 7.5s linear forwards infinite;
+    animation: rotate 3s ease-in-out forwards infinite;
     transform-origin: bottom center;
 }
 
@@ -107,11 +116,11 @@ a:hover {
 }
 
 .container.grow {
-    animation: grow 3s linear forwards;
+    animation: grow 2s ease-in forwards;
 }
 
 .container.shrink {
-    animation: shrink 3s linear forwards;
+    animation: shrink 1s ease forwards;
 }
 
 @keyframes rotate {
@@ -130,13 +139,13 @@ a:hover {
     }
 
     to {
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
 }
 
 @keyframes shrink {
     from {
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
 
     to {
