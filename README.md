@@ -4,10 +4,10 @@ Little meditation application from Traversy media - https://www.youtube.com/watc
 Within the exercise I added Wim Hof method - breathing/meditation.
  
 Wim Hof method:
-30 deep breaths (to belly)
-breath hold for 1 minute
-inhale and hold your breath for another 15 seconds
-repeat as you wish
+1. 30 deep breaths (to belly)
+2. Breath hold for 1 minute
+3. Inhale and hold your breath for another 15 seconds
+4. Repeat as you wish
 
 ![web_showcase](https://github.com/lukas1us/meditation_app/blob/master/img/screenshot.png)
 
