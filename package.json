@@ -1,0 +1,23 @@
+{
+  "name": "meditation_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukas1us/meditation_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukas1us/meditation_app/issues"
+  },
+  "homepage": "https://github.com/lukas1us/meditation_app#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
