@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url('/dist/img/background.jpg') no-repeat center center;
+    background: url('../img/background.jpg') no-repeat center center;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     min-height: 90vh;
