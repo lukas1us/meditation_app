@@ -9,7 +9,7 @@ Wim Hof method:
 3. Inhale and hold your breath for another 15 seconds
 4. Repeat as you wish
 
-![web_showcase](https://github.com/lukas1us/meditation_app/blob/master/img/screenshot.png)
+![web_showcase](https://github.com/lukas1us/meditation_app/blob/master/dist/img/screenshot.png)
 
 Classic HTML/CSS/JS app no libraries no frameworks
 
