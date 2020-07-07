@@ -8,7 +8,8 @@ const totalTime = 3000;
 var breath = 0;
 const totalBreats = 30;
 const breatheTime = 2000;
-
+document.body.style.backgroundImage =
+  "url('/dist/img/background.jpg')";
 breatheAnimation();
 
 //WIM HOF method
@@ -42,9 +43,9 @@ function stopWatch(timer, desc) {
   desc === "long" ? firstTimer() : secondTimer();
 
   function firstTimer() {
-    timer === 0
-      ? (counter.innerHTML = "")
-      : (counter.innerHTML = timer.toString());
+    timer === 0 ?
+      (counter.innerHTML = "") :
+      (counter.innerHTML = timer.toString());
     if (timer === 0) {
       text.innerHTML = "Fully out!";
       breathHoldShort();
@@ -55,9 +56,9 @@ function stopWatch(timer, desc) {
   }
 
   function secondTimer() {
-    timer === 0
-      ? (counter.innerHTML = "")
-      : (counter.innerHTML = timer.toString());
+    timer === 0 ?
+      (counter.innerHTML = "") :
+      (counter.innerHTML = timer.toString());
     if (timer === 0) {
       text.innerHTML = "Fully out!";
       container.className = "container shrink";
